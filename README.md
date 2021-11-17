@@ -8,7 +8,7 @@
 <br>
 
 <h2 align="center" style="color: blue">Descrição do projeto</h2>
-<p>O projeto "Jadoo" ainda está bem no inicio, más já está com uma aparência muita legal, vamos evoluindo este projeto.</p>
+<p>O projeto "Jadoo" está quase finalizado tendo diversas interações com javascript e totalmente responsivo, um projeto totalmente completo estou muito feliz de conseguir criar layout's completos.</p>
 
 ## Features:
 
