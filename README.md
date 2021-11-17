@@ -12,13 +12,13 @@
 
 ## Features:
 
-- [] Modal
-- [] Responsivo
-- [] Dropdown
-- [] Menu mobile
+- [x] Modal
+- [x] Responsivo
+- [x] Dropdown
+- [x] Menu mobile
 - [] Navegação por Tab
-- [] Scroll Suave
-- [] Accordion 
+- [x] Scroll Suave
+- [x] Accordion 
 <br>
 <br>
 
@@ -26,6 +26,8 @@
 ### HTML
 ### CSS
 ### JAVASCRIPT
+
+Veja o projeto na web -> <a href="https://jadoo-total-responsivo.netlify.app/">Jadoo</a>
 
 <br>
 <br>
