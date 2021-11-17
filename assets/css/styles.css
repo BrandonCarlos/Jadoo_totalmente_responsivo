@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;300;500;700;900&family=Manrope:wght@200;400;600;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap');
+@import './classes.css';
+@import './nav.css';
+@import './services.css';
+@import './destinations.css';
+@import './book.css';
+@import './about.css';
+@import './marcas.css';
+@import './subscribe.css';
+@import './footer.css';
+@import './mediaQueries.css';
+@import './modal.css';
+@import './dropdown-menu.css';
+
+:root {
+  --color-red: #DF6951;
+  --color-orange: #F1A501;
+  --color-yellow: #F0BB1F;
+  --color-green-dark: #006380;
+  --color-purple: #8A79DF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* background: #ccc; */
+}
+
+.button-play {
+  cursor: pointer;
+}
+
+.button-play > p{
+  transition: 300ms ease-in-out;
+}
+
+.button-play:hover > p{
+  color: rgb(119, 119, 119);
+}
+
+[data-anime="scroll"] {
+  opacity: 0;
+  transform: translate3d(-3rem, 0, 0);
+  transition: 700ms ease-in-out;
+}
+
+[data-anime="scroll"].active {
+  opacity: 1;
+  transform: translate3d(0rem, 0, 0);
+  display: block;
+}
